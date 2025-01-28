@@ -26,6 +26,7 @@ class AList {
         @Test
         void shouldHaveNoElementZero() {
             assertNoSuchElementExceptionThrown(() -> list.get(0));
+            assertNoSuchElementExceptionThrown(()->list.get(-1));
         }
 
         @Test
@@ -90,6 +91,7 @@ class AList {
             assertEquals(FIRST_ELEMENT, list.get(0));
             assertEquals(MIDDLE_ELEMENT, list.get(1));
             assertEquals(LAST_ELEMENT, list.get(2));
+            assertNoSuchElementExceptionThrown(()->list.get(3));
         }
 
         @Test

@@ -1,0 +1,35 @@
+name: Java CI with Maven
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: maven
+      - name: Build with Maven
+        run: mvn -B package --file JGoF/pom.xml
+      - name: Upload Code Coverage Report
+        uses: actions/upload-artifact@v3
+        with:
+          path: target/site/jacoco/jacoco.xml
+          name: jacoco_report
+      - name: Merge to master
+        if: success()
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git checkout master
+          git merge ${{ github.ref }}  # Merges the branch that triggered the workflow
+          git push origin master
