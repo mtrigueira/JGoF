@@ -12,6 +12,9 @@ honouring the GoF, Java, and good design principles.
 * [Abstract Factory](src/main/java/org/example/gof/creation/abstractFactory/AbstractFactory.md)
   ([Test](src/test/java/org/example/gof/creation/abstractFactory/))
   ([Code](src/main/java/org/example/gof/creation/abstractFactory/))
+* [Builder](src/main/java/org/example/gof/creation/builder/Builder.md)
+  ([Test](src/test/java/org/example/gof/creation/builder/))
+  ([Code](src/main/java/org/example/gof/creation/builder/))
 
 # References
 "GoF" Erich Gamma, Richard Helm, Ralph Johnson,
