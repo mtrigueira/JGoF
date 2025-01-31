@@ -31,6 +31,6 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git fetch
-          git checkout master
-          git merge ${{ github.ref }}  
+          git checkout origin master
+          git merge ${{ github.ref }}
           git push origin master
