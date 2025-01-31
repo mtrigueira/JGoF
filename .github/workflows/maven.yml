@@ -34,7 +34,4 @@ jobs:
           git checkout master
           git reset --hard origin/master
           git merge ${{ github.ref }}
-          git add .
-          git commit -m "Merge branch '${{ github.ref }}' into master"
-          git push
           git push origin master
