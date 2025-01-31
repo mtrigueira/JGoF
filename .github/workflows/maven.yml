@@ -31,7 +31,7 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git fetch origin master --unshallow
-          git checkout origin master
+          git checkout master
           git reset --hard origin/master
           git merge ${{ github.ref }}
           git add .
