@@ -6,17 +6,17 @@ classDiagram
     class Builder~T~ {
         <<interface>>
         buildPart()*
-        T result()*
+        result()* ~T~
     }
     class ConcreteBuilder~String~ {
         +buildPart()
-        String result()
+        result() String
     }
     class Director {
         construct()
     }
     Builder <|-- ConcreteBuilder
-    Director <--o Builder
+    Builder <--o Director
 ```
 The name of the method that returned the output of the build was called *getResult()* in GoF. This is a tired
 mis-convention. It is not our concern if the output is gotten, nor calculated, nor generated, nor other such. Here the
