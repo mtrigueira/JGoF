@@ -28,7 +28,9 @@ honouring the GoF, Java, and good design principles.
   ([Code](src/main/java/org/example/gof/creation/singleton/))
 
 ## Structural Patterns
-* Adapter
+* [Adapter](src/main/java/org/example/gof/structure/adapter/Adapter.md)
+  ([Test](src/test/java/org/example/gof/structure/adapter/))
+  ([Code](src/main/java/org/example/gof/structure/adapter/))
 * Bridge
 * Composite
 * Decorator
