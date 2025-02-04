@@ -15,6 +15,9 @@ honouring the GoF, Java, and good design principles.
 * [Builder](src/main/java/org/example/gof/creation/builder/Builder.md)
   ([Test](src/test/java/org/example/gof/creation/builder/))
   ([Code](src/main/java/org/example/gof/creation/builder/))
+* [Factory Method](src/main/java/org/example/gof/creation/factoryMethod/FactoryMethod.md)
+  ([Test](src/test/java/org/example/gof/creation/factoryMethod/))
+  ([Code](src/main/java/org/example/gof/creation/factoryMethod/))
 
 # References
 "GoF" Erich Gamma, Richard Helm, Ralph Johnson,

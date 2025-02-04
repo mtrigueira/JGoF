@@ -35,3 +35,4 @@ jobs:
           git reset --hard origin/master
           git merge ${{ github.ref }}
           git push origin master
+          git branch -d ${{ github.ref }}
