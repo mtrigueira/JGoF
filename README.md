@@ -21,6 +21,9 @@ honouring the GoF, Java, and good design principles.
 * [Prototype](src/main/java/org/example/gof/creation/prototype/Prototype.md)
   ([Test](src/test/java/org/example/gof/creation/prototype/))
   ([Code](src/main/java/org/example/gof/creation/prototype/))
+* [Singleton](src/main/java/org/example/gof/creation/singleton/Singleton.md)
+  ([Test](src/test/java/org/example/gof/creation/singleton/))
+  ([Code](src/main/java/org/example/gof/creation/singleton/))
 
 # References
 "GoF" Erich Gamma, Richard Helm, Ralph Johnson,
