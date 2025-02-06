@@ -9,6 +9,7 @@ Exercises relating to the GoF book
 # Pattern Catalog
 Here each pattern is listed and a Java example is offered. The intent is for the example to be as correct as possible
 honouring the GoF, Java, and good design principles.  
+## Creational Patterns
 * [Abstract Factory](src/main/java/org/example/gof/creation/abstractFactory/AbstractFactory.md)
   ([Test](src/test/java/org/example/gof/creation/abstractFactory/))
   ([Code](src/main/java/org/example/gof/creation/abstractFactory/))
@@ -25,6 +26,28 @@ honouring the GoF, Java, and good design principles.
   ([Test](src/test/java/org/example/gof/creation/singleton/))
   ([Code](src/main/java/org/example/gof/creation/singleton/))
 
+## Structural Patterns
+* Adapter
+* Bridge
+* Composite
+* Decorator
+* Facade
+* Flyweight
+* Proxy
+
+## Behavioural Patterns
+* Chain of Responsibility
+* Command
+* Interpreter
+* Iterator
+* Mediator
+* Memento
+* Observer
+* State
+* Strategy
+* Template Method
+* Visitor
+
 # References
-"GoF" Erich Gamma, Richard Helm, Ralph Johnson,
-John Vlissides. (1994) Design Patterns: Elements of Reusable Object-Oriented Software.  Addison-Wesley Professional
+"GoF" Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides. (1994) Design Patterns: Elements of Reusable
+Object-Oriented Software.  Addison-Wesley Professional
