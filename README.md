@@ -31,7 +31,9 @@ honouring the GoF, Java, and good design principles.
 * [Adapter](src/main/java/org/example/gof/structure/adapter/Adapter.md)
   ([Test](src/test/java/org/example/gof/structure/adapter/))
   ([Code](src/main/java/org/example/gof/structure/adapter/))
-* Bridge
+* [Bridge](src/main/java/org/example/gof/structure/bridge/Bridge.md)
+  ([Test](src/test/java/org/example/gof/structure/bridge/))
+  ([Code](src/main/java/org/example/gof/structure/bridge/))
 * Composite
 * Decorator
 * Facade
