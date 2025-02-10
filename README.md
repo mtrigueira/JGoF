@@ -37,7 +37,9 @@ honouring the GoF, Java, and good design principles.
 * [Composite](src/main/java/org/example/gof/structure/composite/Composite.md)
   ([Test](src/test/java/org/example/gof/structure/composite/))
   ([Code](src/main/java/org/example/gof/structure/composite/))
-* Decorator
+* [Decorator](src/main/java/org/example/gof/structure/decorator/Decorator.md)
+  ([Test](src/test/java/org/example/gof/structure/decorator/))
+  ([Code](src/main/java/org/example/gof/structure/decorator/))
 * Facade
 * Flyweight
 * Proxy
