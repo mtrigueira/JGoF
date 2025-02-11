@@ -40,7 +40,9 @@ honouring the GoF, Java, and good design principles.
 * [Decorator](src/main/java/org/example/gof/structure/decorator/Decorator.md)
   ([Test](src/test/java/org/example/gof/structure/decorator/))
   ([Code](src/main/java/org/example/gof/structure/decorator/))
-* Facade
+* [Facade](src/main/java/org/example/gof/structure/facade/Facade.md)
+  ([Test](src/test/java/org/example/gof/structure/facade/))
+  ([Code](src/main/java/org/example/gof/structure/facade/))
 * Flyweight
 * Proxy
 
