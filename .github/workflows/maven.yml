@@ -37,4 +37,4 @@ jobs:
           git merge ${{ github.ref_name }}
           git push origin main
           # Delete branches that have already been merged into main
-          git branch --merged main || true | grep -v '^\*' | xargs git branch -d
+          git branch --merged main | grep -v '^\*' | xargs git branch -d || true 
