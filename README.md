@@ -51,7 +51,9 @@ honouring the GoF, Java, and good design principles.
   ([Code](src/main/java/org/example/gof/structure/proxy/))
 
 ## Behavioural Patterns
-* Chain of Responsibility
+* [Chain of Responsibility](src/main/java/org/example/gof/behaviour/cor/ChainOfResponsibility.md)
+  ([Test](src/test/java/org/example/gof/behaviour/cor/))
+  ([Code](src/main/java/org/example/gof/behaviour/cor/))
 * Command
 * Interpreter
 * Iterator
