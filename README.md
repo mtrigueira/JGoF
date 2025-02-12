@@ -46,7 +46,9 @@ honouring the GoF, Java, and good design principles.
 * [Flyweight](src/main/java/org/example/gof/structure/flyweight/Flyweight.md)
   ([Test](src/test/java/org/example/gof/structure/flyweight/))
   ([Code](src/main/java/org/example/gof/structure/flyweight/))
-* Proxy
+* [Proxy](src/main/java/org/example/gof/structure/proxy/Proxy.md)
+  ([Test](src/test/java/org/example/gof/structure/proxy/))
+  ([Code](src/main/java/org/example/gof/structure/proxy/))
 
 ## Behavioural Patterns
 * Chain of Responsibility
