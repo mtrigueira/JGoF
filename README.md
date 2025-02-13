@@ -54,7 +54,9 @@ honouring the GoF, Java, and good design principles.
 * [Chain of Responsibility](src/main/java/org/example/gof/behaviour/cor/ChainOfResponsibility.md)
   ([Test](src/test/java/org/example/gof/behaviour/cor/))
   ([Code](src/main/java/org/example/gof/behaviour/cor/))
-* Command
+* [Command](src/main/java/org/example/gof/behaviour/command/Command.md)
+  ([Test](src/test/java/org/example/gof/behaviour/command/))
+  ([Code](src/main/java/org/example/gof/behaviour/command/))
 * Interpreter
 * Iterator
 * Mediator
