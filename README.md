@@ -57,7 +57,9 @@ honouring the GoF, Java, and good design principles.
 * [Command](src/main/java/org/example/gof/behaviour/command/Command.md)
   ([Test](src/test/java/org/example/gof/behaviour/command/))
   ([Code](src/main/java/org/example/gof/behaviour/command/))
-* Interpreter
+* [Interpreter](src/main/java/org/example/gof/behaviour/interpreter/Interpreter.md)
+  ([Test](src/test/java/org/example/gof/behaviour/interpreter/))
+  ([Code](src/main/java/org/example/gof/behaviour/interpreter/))
 * Iterator
 * Mediator
 * Memento
