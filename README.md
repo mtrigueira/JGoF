@@ -63,7 +63,9 @@ honouring the GoF, Java, and good design principles.
 * [Iterator](src/main/java/org/example/gof/behaviour/iterator/Iterator.md)
   ([Test](src/test/java/org/example/gof/behaviour/iterator/))
   ([Code](src/main/java/org/example/gof/behaviour/iterator/))
-* Mediator
+* [Mediator](src/main/java/org/example/gof/behaviour/mediator/Mediator.md)
+  ([Test](src/test/java/org/example/gof/behaviour/mediator/))
+  ([Code](src/main/java/org/example/gof/behaviour/mediator/))
 * Memento
 * Observer
 * State
