@@ -69,7 +69,9 @@ honouring the GoF, Java, and good design principles.
 * [Memento](src/main/java/org/example/gof/behaviour/memento/Memento.md)
   ([Test](src/test/java/org/example/gof/behaviour/memento/))
   ([Code](src/main/java/org/example/gof/behaviour/memento/))
-* Observer
+* [Observer](src/main/java/org/example/gof/behaviour/observer/Observer.md)
+  ([Test](src/test/java/org/example/gof/behaviour/observer/))
+  ([Code](src/main/java/org/example/gof/behaviour/observer/))
 * State
 * Strategy
 * Template Method
