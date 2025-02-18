@@ -72,7 +72,9 @@ honouring the GoF, Java, and good design principles.
 * [Observer](src/main/java/org/example/gof/behaviour/observer/Observer.md)
   ([Test](src/test/java/org/example/gof/behaviour/observer/))
   ([Code](src/main/java/org/example/gof/behaviour/observer/))
-* State
+* [State](src/main/java/org/example/gof/behaviour/state/State.md)
+  ([Test](src/test/java/org/example/gof/behaviour/state/))
+  ([Code](src/main/java/org/example/gof/behaviour/state/))
 * Strategy
 * Template Method
 * Visitor
