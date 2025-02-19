@@ -81,7 +81,9 @@ honouring the GoF, Java, and good design principles.
 * [Template Method](src/main/java/org/example/gof/behaviour/template/Template.md)
   ([Test](src/test/java/org/example/gof/behaviour/template/))
   ([Code](src/main/java/org/example/gof/behaviour/template/))
-* Visitor
+* [Visitor](src/main/java/org/example/gof/behaviour/visitor/Visitor.md)
+  ([Test](src/test/java/org/example/gof/behaviour/visitor/))
+  ([Code](src/main/java/org/example/gof/behaviour/visitor/))
 
 # References
 "GoF" Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides. (1994) Design Patterns: Elements of Reusable
