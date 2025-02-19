@@ -78,7 +78,9 @@ honouring the GoF, Java, and good design principles.
 * [Strategy](src/main/java/org/example/gof/behaviour/strategy/Strategy.md)
   ([Test](src/test/java/org/example/gof/behaviour/strategy/))
   ([Code](src/main/java/org/example/gof/behaviour/strategy/))
-* Template Method
+* [Template Method](src/main/java/org/example/gof/behaviour/template/Template.md)
+  ([Test](src/test/java/org/example/gof/behaviour/template/))
+  ([Code](src/main/java/org/example/gof/behaviour/template/))
 * Visitor
 
 # References
