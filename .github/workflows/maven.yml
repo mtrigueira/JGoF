@@ -37,4 +37,5 @@ jobs:
           git merge ${{ github.ref_name }}
           git push origin main
           git fetch
+          git prune
           git branch -r --merged main | awk '!/origin\/main/' | xargs -n 1 git push origin --delete
