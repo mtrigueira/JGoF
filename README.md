@@ -12,7 +12,7 @@ Notes, and exercises relating to the GoF book
 # Pattern Catalog
 Here each pattern is listed and a Java example is offered. The intent is for the example to be as correct as possible
 honouring the GoF, Java, and good design principles.  
-## Creational Patterns
+## Creation Patterns
 * [Abstract Factory](src/main/java/org/example/gof/creation/abstractFactory/AbstractFactory.md)
   ([Test](src/test/java/org/example/gof/creation/abstractFactory/))
   ([Code](src/main/java/org/example/gof/creation/abstractFactory/))

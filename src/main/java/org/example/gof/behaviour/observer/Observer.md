@@ -36,7 +36,7 @@ what has changed, and so must "pull" the state it wants from the Subject.
 
 In the Push model a detailed state is set with the notification.
 
-Between this the notifications can be of different granularities. This could be 
+Between this the notifications can be of different granularity. This could be 
 achieved using different set of notification and state. GoF calls these aspects.
 
 A cute way of doing this is to add a generic to Observer<T> where T is the State

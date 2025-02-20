@@ -35,7 +35,7 @@ The Colleagues communicate with each-other via the interface offered by the
 Mediator. The Mediator communicates with the Colleagues via the Colleague
 interface.
 
-The Colleague class could be an interface, and ColleageA and B implementors, but 
+The Colleague class could be an interface, and ColleagueA and B implementors, but 
 for the example Colleague is a class, and A and B instances.
 
 This is an extension of the Facade (playing the part of Mediator) where the

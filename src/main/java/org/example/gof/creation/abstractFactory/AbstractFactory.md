@@ -14,8 +14,8 @@ classDiagram
     namespace abstract {
         class AbstractFactory {
             <<interface>>
-            *AbstractProductA createProductA
-            *AbstractProductB createProductB
+            createProductA() AbstractProductA*
+            createProductB() AbstractProductB*
         }
         class AbstractProductA {
             <<interface>>
@@ -26,8 +26,8 @@ classDiagram
     }
     namespace concrete {
         class ConcreteFactory {
-            +AbstractProductA createProductA
-            +AbstractProductB createProductB
+            +createProductA() AbstractProductA
+            +createProductB() AbstractProductB
         }
         class ProductA
         class ProductB
