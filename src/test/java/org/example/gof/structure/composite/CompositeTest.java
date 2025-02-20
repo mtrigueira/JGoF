@@ -8,18 +8,17 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class CompositeTest {
     @Test
     void testComposite() {
-        Component component = new Composite();
-        Component a = new Leaf();
-        Component b = new Leaf();
-        ((Composite) component).children.add(a);
-        ((Composite) component).children.add(b);
-        assertFalse(((Leaf) a).operationCalled);
-        assertFalse(((Leaf) b).operationCalled);
+        Composite component = new Composite();
+        Leaf a = new Leaf();
+        Leaf b = new Leaf();
+        component.children.add(a);
+        component.children.add(b);
+        assertFalse(a.operationCalled);
+        assertFalse(b.operationCalled);
 
         component.operation();
 
-        assertTrue(((Leaf) a).operationCalled);
-        assertTrue(((Leaf) b).operationCalled);
+        assertTrue(a.operationCalled);
+        assertTrue(b.operationCalled);
     }
-
 }

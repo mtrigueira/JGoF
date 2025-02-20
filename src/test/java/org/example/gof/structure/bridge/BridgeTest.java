@@ -8,12 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class BridgeTest {
     @Test
     void testBridge() {
-        Implementor implementor = new Concrete();
-        Abstraction abstraction = new Refined(implementor);
+        Concrete concrete = new Concrete();
+        Abstraction abstraction = new Refined(concrete);
 
-        assertFalse(((Concrete) implementor).operationBWasCalled);
+        assertFalse(concrete.operationBWasCalled);
         abstraction.operationA();
-        assertTrue(((Concrete) implementor).operationBWasCalled);
+        assertTrue(concrete.operationBWasCalled);
     }
-
 }

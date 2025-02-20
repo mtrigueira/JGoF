@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 class Composite implements Component {
-    Collection<Component> children = new ArrayList<>();
+    final Collection<Component> children = new ArrayList<>();
 
     @Override
     public void operation() {

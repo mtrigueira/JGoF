@@ -20,9 +20,9 @@ classDiagram
         class Collection~T~ {
             <<interface>>
             -T[] elements
-            add(T)*
-            remove(T)*
-            getElement(int)*
+            +add(T)*
+            +remove(T)*
+            +getElement(i)*
         }
     }
     Leaf ..|> Component

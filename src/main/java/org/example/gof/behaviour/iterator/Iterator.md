@@ -5,16 +5,16 @@ title: Interator
 classDiagram
     class Iterable~T~ {
         <<interface>>
-        Iterator~T~ iterator()*
+        +iterator() Iterator~T~*
     }
     class Iterator~T~ {
         <<interface>>
-        T next()*
-        boolean hasNext()*
+        +next():T*
+        +hasNext():boolean*
     }
     namespace implementation {
         class ConcreteIterable~T~ {
-            Iterator~T~ iterator()
+            +iterator() Iterator~T~
         }
         class ConcreteIterator {
         }
@@ -24,6 +24,7 @@ classDiagram
     Iterator <|.. ConcreteIterator
     ConcreteIterator <-- ConcreteIterable
 ```
+
 GoF names an Aggregator class, we will javafy it to Iterable<T>. GoF calls the
 method in Aggregator createIterator, we'll use iterator. 
 

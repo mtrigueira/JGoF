@@ -8,26 +8,25 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class DecoratorTest {
     @Test
     void testDecoratorWithAddedState() {
-        Component component = new Concrete();
-        Component decorator = new DecoratorWithAddedState(component);
-        assertFalse(((Concrete) component).operationCalled);
-        assertFalse(((DecoratorWithAddedState) decorator).addedState);
+        Concrete component = new Concrete();
+        DecoratorWithAddedState decorator = new DecoratorWithAddedState(component);
+        assertFalse(component.operationCalled);
+        assertFalse(decorator.addedState);
 
         decorator.operation();
 
-        assertTrue(((Concrete) component).operationCalled);
-        assertTrue(((DecoratorWithAddedState) decorator).addedState);
+        assertTrue(component.operationCalled);
+        assertTrue(decorator.addedState);
     }
 
     @Test
     void testDecoratorWithAddedBehavior() {
-        Component component = new Concrete();
-        Component decorator = new DecoratorWithAddedBehaviour(component);
-        assertFalse(((Concrete) component).operationCalled);
+        Concrete component = new Concrete();
+        DecoratorWithAddedBehaviour decorator = new DecoratorWithAddedBehaviour(component);
+        assertFalse(component.operationCalled);
 
-        ((DecoratorWithAddedBehaviour) decorator).addedBehaviour();
+        decorator.addedBehaviour();
 
-        assertTrue(((Concrete) component).operationCalled);
+        assertTrue(component.operationCalled);
     }
-
 }

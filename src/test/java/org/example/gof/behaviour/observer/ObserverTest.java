@@ -2,6 +2,7 @@ package org.example.gof.behaviour.observer;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ObserverTest {
@@ -17,5 +18,7 @@ public class ObserverTest {
         subject.detach(observer);
         subject.setState("changed again");
         assertEquals("changed", observer.concreteSubjectObservedState);
+
+        assertDoesNotThrow(() -> subject.detach(observer));
     }
 }

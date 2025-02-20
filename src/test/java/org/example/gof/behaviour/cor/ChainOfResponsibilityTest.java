@@ -8,14 +8,14 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class ChainOfResponsibilityTest {
     @Test
     void test() {
-        Handler concreteB = new Concrete(null);
-        Handler concreteA = new Concrete(concreteB);
+        Concrete concreteB = new Concrete(null);
+        Concrete concreteA = new Concrete(concreteB);
 
-        assertFalse(((Concrete) concreteB).handleRequestCalled);
-        assertFalse(((Concrete) concreteA).handleRequestCalled);
+        assertFalse(concreteB.handleRequestCalled);
+        assertFalse(concreteA.handleRequestCalled);
         concreteA.handleRequest();
-        assertTrue(((Concrete) concreteB).handleRequestCalled);
-        assertTrue(((Concrete) concreteA).handleRequestCalled);
+        assertTrue(concreteB.handleRequestCalled);
+        assertTrue(concreteA.handleRequestCalled);
     }
 
 }

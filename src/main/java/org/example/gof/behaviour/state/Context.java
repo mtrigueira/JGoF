@@ -1,8 +1,8 @@
 package org.example.gof.behaviour.state;
 
 class Context {
-    State stateA = new State();
-    State stateB = new State();
+    final State stateA = new State();
+    final State stateB = new State();
     private State state = stateA;
 
     void request() {

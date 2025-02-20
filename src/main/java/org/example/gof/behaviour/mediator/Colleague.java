@@ -9,8 +9,6 @@ class Colleague {
         mediator.add(this);
     }
 
-    ;
-
     public void operation() {
         wasOperationCalled = true;
         mediator.notify1(this);

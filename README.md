@@ -1,6 +1,8 @@
 # JGoF
 Notes, and exercises relating to the GoF book
 
+![Instruction coverage](https://img.shields.io/badge/Java-21-black?labelColor=red)
+
 ![Class coverage](https://img.shields.io/badge/Class_coverage-100%25-brightgreen)
 ![Method coverage](https://img.shields.io/badge/Method_coverage-100%25-brightgreen)
 ![Branch coverage](https://img.shields.io/badge/Branch_coverage-100%25-brightgreen)

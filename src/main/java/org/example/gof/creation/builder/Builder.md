@@ -8,13 +8,15 @@ classDiagram
         buildPart()*
         result()* ~T~
     }
-    class ConcreteBuilder~String~ {
+    class ConcreteBuilder~Built~ {
         +buildPart()
-        result() String
+        result() Built
     }
     class Director {
         construct()
     }
+    class Built {}
+    
     Builder <|-- ConcreteBuilder
     Builder <--o Director
 ```

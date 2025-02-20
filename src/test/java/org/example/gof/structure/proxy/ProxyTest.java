@@ -8,14 +8,14 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class ProxyTest {
     @Test
     void test() {
-        Subject proxy = new Proxy();
+        Proxy proxy = new Proxy();
 
-        assertNull(((Proxy)proxy).realSubject);
+        assertNull(proxy.realSubject);
         proxy.operation();
-        assertTrue(((RealSubject)((Proxy)proxy).realSubject).operationCalled);
+        assertTrue(((RealSubject) proxy.realSubject).operationCalled);
 
-        ((RealSubject)((Proxy)proxy).realSubject).operationCalled = false;
+        ((RealSubject) proxy.realSubject).operationCalled = false;
         proxy.operation();
-        assertTrue(((RealSubject)((Proxy)proxy).realSubject).operationCalled);
+        assertTrue(((RealSubject) proxy.realSubject).operationCalled);
     }
 }

@@ -13,6 +13,7 @@ class Subject {
     }
 
     public void detach(Observer observer) {
-        this.observer = null;
+        if (observer == this.observer)
+            this.observer = null;
     }
 }

@@ -17,11 +17,11 @@ public class AdapterTest {
 
     @Test
     void tesWrapper() {
-        Target target = new Wrapper();
+        Wrapper target = new Wrapper();
 
-        assertFalse(((Wrapper)target).adaptee.wrappedRequestWasCalled);
+        assertFalse(target.adaptee.wrappedRequestWasCalled);
         target.request();
-        assertTrue(((Wrapper)target).adaptee.wrappedRequestWasCalled);
+        assertTrue(target.adaptee.wrappedRequestWasCalled);
     }
 
 }

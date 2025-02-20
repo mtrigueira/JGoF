@@ -8,16 +8,19 @@ public class InterpreterTest {
     @Test
     void test() {
         Expression expression = new Terminal();
+        //terminal is used for testing purposes
+        //noinspection CastCanBeRemovedNarrowingVariableType
+        Terminal terminal = (Terminal) expression;
         Context context = new Context();
 
-        assertFalse(((Terminal) expression).thisWasPreviousExpression);
+        assertFalse(terminal.thisWasPreviousExpression);
         assertNull(context.lastExpression);
         expression.interpret(context);
 
-        assertFalse(((Terminal) expression).thisWasPreviousExpression);
+        assertFalse(terminal.thisWasPreviousExpression);
         assertNotNull(context.lastExpression);
         expression.interpret(context);
 
-        assertTrue(((Terminal) expression).thisWasPreviousExpression);
+        assertTrue(terminal.thisWasPreviousExpression);
     }
 }
