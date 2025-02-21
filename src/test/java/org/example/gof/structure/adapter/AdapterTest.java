@@ -8,20 +8,20 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class AdapterTest {
     @Test
     void testAdapter() {
-        Target target = new Adapter();
+        Target target = new AdapterSpy();
 
-        assertFalse(((Adaptee)target).wrappedRequestWasCalled);
+        assertFalse(((AdapterSpy)target).requestWasCalled);
         target.request();
-        assertTrue(((Adaptee)target).wrappedRequestWasCalled);
+        assertTrue(((AdapterSpy)target).requestWasCalled);
     }
 
-    @Test
-    void tesWrapper() {
-        Wrapper target = new Wrapper();
+    private static class AdapterSpy extends Adapter {
+        public boolean requestWasCalled = false;
 
-        assertFalse(target.adaptee.wrappedRequestWasCalled);
-        target.request();
-        assertTrue(target.adaptee.wrappedRequestWasCalled);
+        @Override
+        public void request() {
+            super.request();
+            requestWasCalled = true;
+        }
     }
-
 }

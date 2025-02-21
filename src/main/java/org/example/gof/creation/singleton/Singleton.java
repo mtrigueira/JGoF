@@ -1,11 +1,15 @@
 package org.example.gof.creation.singleton;
 
-class Singleton {
-    protected static Singleton INSTANCE = new Singleton();
-    private int counter = 0;
+class Singleton implements Interface {
+    private static Interface instance = new Singleton();
 
-    public static Singleton instance() {
-        INSTANCE.counter++;
-        return INSTANCE;
+    public static Interface instance() {
+        return instance;
     }
+
+    public static void setInstance(Interface instance) {
+        Singleton.instance = instance;
+    }
+
+    private Singleton() {}
 }

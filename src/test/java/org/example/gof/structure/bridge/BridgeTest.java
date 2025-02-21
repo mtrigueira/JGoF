@@ -8,11 +8,21 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class BridgeTest {
     @Test
     void testBridge() {
-        Concrete concrete = new Concrete();
+        Concrete concrete = new ConcreteSpy();
         Abstraction abstraction = new Refined(concrete);
 
-        assertFalse(concrete.operationBWasCalled);
+        assertFalse(((ConcreteSpy)concrete).operationWasCalled);
         abstraction.operationA();
-        assertTrue(concrete.operationBWasCalled);
+        assertTrue(((ConcreteSpy)concrete).operationWasCalled);
+    }
+
+    protected class ConcreteSpy extends Concrete {
+        public boolean operationWasCalled = false;
+
+        @Override
+        public void operationB() {
+            super.operationB();
+            operationWasCalled = true;
+        }
     }
 }

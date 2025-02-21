@@ -8,8 +8,8 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SingletonTest {
     @Test
     void testSingleton() {
-        Singleton singleton = Singleton.instance();
-        Singleton singleton2 = Singleton.instance();
+        Interface singleton = Singleton.instance();
+        Interface singleton2 = Singleton.instance();
         assertSame(singleton, singleton2);
     }
 
@@ -17,11 +17,12 @@ public class SingletonTest {
     class ExtensionSingletonTest {
         @Test
         void testSubclassSingleton() {
-            Extension.override();
+            Interface original = Singleton.instance();
+            Singleton.setInstance(Extension.instance());
 
-            Singleton singleton = Singleton.instance();
+            Interface singleton = Singleton.instance();
             assertInstanceOf(Extension.class, singleton);
-            assertInstanceOf(Singleton.class, singleton); // Liskov Substitution Principle
+            assertInstanceOf(Singleton.class, original);
             assertNotEquals(Singleton.class, singleton.getClass());
         }
     }

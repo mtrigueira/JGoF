@@ -7,20 +7,16 @@ classDiagram
         <<interface>>
         request()*
     }
-    class Adapter {
-        +request()
-    }
+
     class Adaptee {
         wrappedRequest()
     }
-    class Wrapper {
+    class Adapter {
         -adaptee Adaptee
         +request()
     }
-    Target <|.. Adapter
-    Wrapper ..|> Target
-    Adaptee <|-- Adapter
-    Wrapper --> Adaptee
+    Adapter ..|> Target
+    Adapter --> Adaptee
 ```
 GoF suggests multiple inheritance, but this is not available in java, and it is also unnecessary, as we can get away 
 with an interface.
