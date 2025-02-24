@@ -10,7 +10,7 @@ import java.util.NoSuchElementException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class AList {
+class ListTest {
     private static final Object FIRST_ELEMENT = "FIRST_ELEMENT";
     private static final Object MIDDLE_ELEMENT = "MIDDLE_ELEMENT";
     private static final Object LAST_ELEMENT = "LAST_ELEMENT";
