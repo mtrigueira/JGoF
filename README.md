@@ -16,7 +16,7 @@ Here each pattern is listed and a Java example is offered. The intent is for the
 example to be as correct as possible
 honouring the GoF, Java, and good design principles.
 
-* [Pattern Catalog](src/main/java/org/example/gof/Catalog.md)
+* [Pattern Catalog](src/main/java/org/example/gof/Catalogue.md)
 
 # References
 
