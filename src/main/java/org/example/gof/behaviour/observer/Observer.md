@@ -44,4 +44,4 @@ of interest. The subject could then only notify observers declaring the
 particular T. Since it is an interface, multiple may be declared for the same
 ConcreteObserver.
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

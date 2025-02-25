@@ -25,4 +25,4 @@ A second alternative where the adaptee is encapsulated in the adapter rather tha
 a way of achieving this pattern through composition. This appears to be the superior OO option, and it matches the
 alternative moniker offered by GoF "wrapper" more closely.
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

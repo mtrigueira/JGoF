@@ -38,4 +38,4 @@ It appears to me that the presence of the Context sufficiently differentiates
 this from an "ordinary" composite pattern. I hold that the presence of a context
 is sufficient to invoke the moniker of Interpreter.
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

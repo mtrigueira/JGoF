@@ -23,4 +23,4 @@ classDiagram
     Strategy <|.. StrategyB
 ```
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

@@ -17,4 +17,4 @@ classDiagram
     AbstractClass <|-- Concrete
 ```
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

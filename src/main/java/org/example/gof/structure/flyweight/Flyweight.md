@@ -9,4 +9,4 @@ classDiagram
 ```
 In GoF the pattern is complicated with a factory, this is not germain to the pattern.
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

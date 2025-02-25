@@ -29,4 +29,4 @@ proxy can add behaviour such as:
 * protection proxy - controls access to the real subject
 * smart reference - counts, locks, or lazily loads the subject on demand
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

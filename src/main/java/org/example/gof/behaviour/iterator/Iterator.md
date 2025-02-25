@@ -40,4 +40,4 @@ special value. If you are tempted by this optimization don't return a null. You
 will throw a null pointer exception when you forget to check. Another sneaky and
 not recommended option would be to expect a NoElementException to be thrown.
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

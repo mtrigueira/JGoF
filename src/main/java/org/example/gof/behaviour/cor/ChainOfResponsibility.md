@@ -26,4 +26,4 @@ override the default. We've intentionally made it difficult here by using an int
 Handlers can choose to ignore the request or act on it. Further they can pass the request on or not. Possibly
 controversially they can mutate the request, or re-route it. 
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

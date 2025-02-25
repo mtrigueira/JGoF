@@ -24,4 +24,4 @@ setMemento is renamed to recall.
 OriginatorMemento content must be opaque to the caller. The Memento is something
 requested stored and given back.
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

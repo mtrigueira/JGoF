@@ -13,4 +13,4 @@ classDiagram
 Gof calls the extension SingletonExtension. We have type safety so don't need to embed the type in the name.
 
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

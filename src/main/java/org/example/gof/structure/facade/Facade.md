@@ -17,4 +17,4 @@ classDiagram
     Facade --> Hidden 
 ```
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

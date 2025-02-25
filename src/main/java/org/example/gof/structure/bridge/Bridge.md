@@ -35,4 +35,4 @@ changed without recompiling and redeploying the bridge package.
 
 The concrete class is decoupled through the implementor interface.
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

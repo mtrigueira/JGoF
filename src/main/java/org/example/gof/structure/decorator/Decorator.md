@@ -47,4 +47,4 @@ child.
 
 In a simpler version the decorator could inherit directly from Concrete, but this introduces coupling.
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

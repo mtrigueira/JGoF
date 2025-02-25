@@ -37,4 +37,4 @@ classDiagram
     VisitorA --> A
 ```
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

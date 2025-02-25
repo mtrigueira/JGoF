@@ -37,4 +37,4 @@ A clear violation of the interface segregation principle.
 Here the child manipulation methods are stripped out of component, and composite. The stripped methods are moved to
 collection. We use generics to tie the type of the collection to the component interface. 
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

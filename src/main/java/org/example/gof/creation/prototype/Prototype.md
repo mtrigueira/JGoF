@@ -34,4 +34,4 @@ the catalog could be an
 [abstractFactory](../abstractFactory/AbstractFactory.md), or a collection of
 [factoryMethod](../factoryMethod/FactoryMethod.md).
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

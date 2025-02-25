@@ -53,4 +53,4 @@ By specifying the return types for the separate methods we can at least check th
 methods at compile time whereas the "string" method leaves us retuning some non-specific type. The distinct method calls
 also help to ensure that all the required products have been catered for at compile time.
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

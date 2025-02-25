@@ -41,4 +41,4 @@ for the example Colleague is a class, and A and B instances.
 This is an extension of the Facade (playing the part of Mediator) where the
 objects hidden behind the Facade also make use of the Facade themselves.
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)

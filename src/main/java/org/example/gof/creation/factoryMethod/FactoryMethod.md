@@ -24,4 +24,4 @@ is potentially a better fit, as it is logically equivalent to a parameterized
 factoryMethod, but with separate methods to define the parameters, and another
 to create the object - the result method (exactly a factoryMethod).
 
-[Return](../../../../../../../../README.md)
+[Pattern Catalogue](../../Catalogue.md)
