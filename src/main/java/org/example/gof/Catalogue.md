@@ -2,7 +2,7 @@
 
 ## Creation Patterns
 
-* [Abstract Factory](creation/abstractFactory/AbstractFactory.md)
+* [Abstract Factory](creation/abstractFactory/AbstractFactory.md) Kit 
   ([Test](../../../../../test/java/org/example/gof/creation/abstractFactory/))
   ([Code](creation/abstractFactory/))
 * [Builder](creation/builder/Builder.md)
