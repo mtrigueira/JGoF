@@ -1,8 +1,11 @@
 # Pattern Catalog
 
+Pattern names are linked to a description, followed by unlinked synonyms (if
+any), and then a link to test, and code example.
+
 ## Creation Patterns
 
-* [Abstract Factory](creation/abstractFactory/AbstractFactory.md) Kit 
+* [Abstract Factory](creation/abstractFactory/AbstractFactory.md), Kit
   ([Test](../../../../../test/java/org/example/gof/creation/abstractFactory/))
   ([Code](creation/abstractFactory/))
 * [Builder](creation/builder/Builder.md)
