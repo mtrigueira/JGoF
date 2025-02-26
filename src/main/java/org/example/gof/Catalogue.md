@@ -11,7 +11,7 @@ any), and then a link to test, and code example.
 * [Builder](creation/builder/Builder.md)
   ([Test](../../../../../test/java/org/example/gof/creation/builder/))
   ([Code](creation/builder/))
-* [Factory Method](creation/factoryMethod/FactoryMethod.md)
+* [Factory Method](creation/factoryMethod/FactoryMethod.md), Virtual Constructor
   ([Test](../../../../../test/java/org/example/gof/creation/factoryMethod/))
   ([Code](creation/factoryMethod/))
 * [Prototype](creation/prototype/Prototype.md)
