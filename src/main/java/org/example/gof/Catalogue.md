@@ -23,7 +23,7 @@ any), and then a link to test, and code example.
 
 ## Structural Patterns
 
-* [Adapter](structure/adapter/Adapter.md)
+* [Adapter](structure/adapter/Adapter.md), Wrapper
   ([Test](../../../../../test/java/org/example/gof/structure/adapter/))
   ([Code](structure/adapter/))
 * [Bridge](structure/bridge/Bridge.md)
