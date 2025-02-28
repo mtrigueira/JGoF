@@ -32,7 +32,7 @@ any), and then a link to test, and code example.
 * [Composite](structure/composite/Composite.md)
   ([Test](../../../../../test/java/org/example/gof/structure/composite/))
   ([Code](structure/composite/))
-* [Decorator](structure/decorator/Decorator.md)
+* [Decorator](structure/decorator/Decorator.md), Wrapper
   ([Test](../../../../../test/java/org/example/gof/structure/decorator/))
   ([Code](structure/decorator/))
 * [Facade](structure/facade/Facade.md)
