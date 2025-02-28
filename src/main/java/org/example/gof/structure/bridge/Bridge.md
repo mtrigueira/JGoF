@@ -1,7 +1,8 @@
+# Bridge
+
+Also known as Handle/Body
+
 ```mermaid
----
-title: Bridge
----
 classDiagram
     namespace bridge {
         class Abstraction {
@@ -24,15 +25,20 @@ classDiagram
             +operationA()
         }
     }
-    Abstraction <--o Implementor 
+    Abstraction <--o Implementor
     Abstraction <|.. Refined
     Implementor <|.. Concrete
     Refined --> Implementor
 ```
-GoF suggest inheritance, but we prefer interfaces. They also suggest the abstraction do the mapping of operations to
-implementor. This is better done by refined. In this way the mapping is decoupled from the bridge package, and can be
-changed without recompiling and redeploying the bridge package. 
 
-The concrete class is decoupled through the implementor interface.
+GoF suggest inheritance, but we prefer interfaces. They also suggest the
+`Abstraction` do the mapping of operations to `Implementor`. This is better done
+by `Refined`. In this way the mapping is decoupled from the bridge package, and
+can be changed without recompiling and redeploying the bridge package.
+
+The `Concrete` class is decoupled through the implementor interface.
+
+See also [Abstract Factory](../../creation/abstractFactory/AbstractFactory.md), 
+[Adapter](../adapter/Adapter.md)
 
 [Pattern Catalogue](../../Catalogue.md)

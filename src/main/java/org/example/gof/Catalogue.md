@@ -26,7 +26,7 @@ any), and then a link to test, and code example.
 * [Adapter](structure/adapter/Adapter.md), Wrapper
   ([Test](../../../../../test/java/org/example/gof/structure/adapter/))
   ([Code](structure/adapter/))
-* [Bridge](structure/bridge/Bridge.md)
+* [Bridge](structure/bridge/Bridge.md), Handle/Body
   ([Test](../../../../../test/java/org/example/gof/structure/bridge/))
   ([Code](structure/bridge/))
 * [Composite](structure/composite/Composite.md)
