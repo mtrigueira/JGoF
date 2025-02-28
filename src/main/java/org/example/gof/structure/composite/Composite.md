@@ -1,40 +1,39 @@
+# Composite
+
 ```mermaid
----
-title: Composite
----
 classDiagram
-
-    class Component {
-        <<interface>>
-        operation()*
-    }
-    class Leaf {
-        operation()
-    }
-    class Composite {
-        Collection~Component~ children
-        operation()
-    }
-
-    namespace collection {
-        class Collection~T~ {
+    namespace composite {
+        class Component {
             <<interface>>
-            -T[] elements
-            +add(T)*
-            +remove(T)*
-            +getElement(i)*
+            operation()*
+        }
+        class Composite {
+            +operation()
+        }
+        class Leaf {
+            +operation()
         }
     }
-    Leaf ..|> Component
-    Composite ..|> Component
-    Composite <--o Collection
-    
-```
-GoF shows component effectively an interface and the leaf implementing operation, and composite implementing all methods
-This is ugly as it means Leaf has vestigial methods for dealing with the children meaningfully implemented in composite.
-A clear violation of the interface segregation principle.
+    Component <|.. Composite
+    Component <|.. Leaf
 
-Here the child manipulation methods are stripped out of component, and composite. The stripped methods are moved to
-collection. We use generics to tie the type of the collection to the component interface. 
+```
+
+GoF shows `Component` effectively an interface and the `Leaf` implementing
+operation, and `Composite` implementing all methods. This is ugly as it means
+`Leaf` has vestigial methods for dealing with the children meaningfully
+implemented in `Composite`. A clear violation of the interface segregation
+principle.
+
+Here the child manipulation methods are stripped out of `Component`, and
+`Composite`. The stripped methods are moved to `Collection` (a java collection,
+not shown). We use generics to tie the type of the collection to the component
+interface.
+
+See also [Command](../../behaviour/command/Command.md), 
+[Chain of Responsibility](../../behaviour/cor/ChainOfResponsibility.md), 
+[Decorator](../decorator/Decorator.md), [Flyweight](../flyweight/Flyweight.md), 
+[Iterator](../../behaviour/iterator/Iterator.md), 
+[Visitor](../../behaviour/visitor/Visitor.md)
 
 [Pattern Catalogue](../../Catalogue.md)
