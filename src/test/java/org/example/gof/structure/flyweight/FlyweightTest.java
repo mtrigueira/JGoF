@@ -15,11 +15,4 @@ public class FlyweightTest {
         assertEquals("op B", flyweight.op);
     }
 
-    private static final class Flyweight {
-        private String op = "";
-
-        void operation(String state) {
-            op = "op "+state;
-        }
-    }
 }
