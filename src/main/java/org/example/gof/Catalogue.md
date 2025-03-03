@@ -41,7 +41,7 @@ any), and then a link to test, and code example.
 * [Flyweight](structure/flyweight/Flyweight.md)
   ([Test](../../../../../test/java/org/example/gof/structure/flyweight/))
   ([Code](structure/flyweight/))
-* [Proxy](structure/proxy/Proxy.md)
+* [Proxy](structure/proxy/Proxy.md) Surrogate
   ([Test](../../../../../test/java/org/example/gof/structure/proxy/))
   ([Code](structure/proxy/))
 
