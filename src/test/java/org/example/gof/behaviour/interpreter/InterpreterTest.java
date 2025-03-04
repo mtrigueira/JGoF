@@ -2,25 +2,32 @@ package org.example.gof.behaviour.interpreter;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 public class InterpreterTest {
     @Test
     void test() {
-        Expression expression = new Terminal();
-        //terminal is used for testing purposes
-        //noinspection CastCanBeRemovedNarrowingVariableType
-        Terminal terminal = (Terminal) expression;
+        Terminal terminal = new Terminal();
+        NonTerminal nonTerminal = new NonTerminal();
         Context context = new Context();
+        String log = "";
+        Expression expression;
 
         assertFalse(terminal.thisWasPreviousExpression);
-        assertNull(context.lastExpression);
+        assertFalse(nonTerminal.thisWasPreviousExpression);
+        assertEquals(log, context.log);
+        expression = nonTerminal;
+
         expression.interpret(context);
 
-        assertFalse(terminal.thisWasPreviousExpression);
-        assertNotNull(context.lastExpression);
+        log += "NonTerminal\n";
+        assertEquals(log, context.log);
+
+        expression = terminal;
         expression.interpret(context);
 
-        assertTrue(terminal.thisWasPreviousExpression);
+        log += "Terminal\n";
+        assertEquals(log, context.log);
     }
 }

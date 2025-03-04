@@ -1,5 +1,5 @@
 package org.example.gof.behaviour.interpreter;
 
 class Context {
-    Expression lastExpression; /* not germain */
+    String log = ""; /* not germain */
 }
