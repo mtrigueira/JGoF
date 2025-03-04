@@ -1,4 +1,4 @@
-package org.example.gof.behaviour.cor;
+package org.example.gof.behaviour.chain;
 
 interface Handler {
     void handleRequest();

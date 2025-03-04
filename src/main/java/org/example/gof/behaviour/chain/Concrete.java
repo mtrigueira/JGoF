@@ -1,4 +1,4 @@
-package org.example.gof.behaviour.cor;
+package org.example.gof.behaviour.chain;
 
 class Concrete implements Handler {
     private final Handler successor;

@@ -31,7 +31,7 @@ not shown). We use generics to tie the type of the collection to the component
 interface.
 
 See also [Command](../../behaviour/command/Command.md), 
-[Chain of Responsibility](../../behaviour/cor/ChainOfResponsibility.md), 
+[Chain of Responsibility](../../behaviour/chain/ChainOfResponsibility.md), 
 [Decorator](../decorator/Decorator.md), [Flyweight](../flyweight/Flyweight.md), 
 [Iterator](../../behaviour/iterator/Iterator.md), 
 [Visitor](../../behaviour/visitor/Visitor.md)

@@ -47,9 +47,9 @@ any), and then a link to test, and code example.
 
 ## Behavioural Patterns
 
-* [Chain of Responsibility](behaviour/cor/ChainOfResponsibility.md)
-  ([Test](../../../../../test/java/org/example/gof/behaviour/cor/))
-  ([Code](behaviour/cor/))
+* [Chain of Responsibility](behaviour/chain/ChainOfResponsibility.md)
+  ([Test](../../../../../test/java/org/example/gof/behaviour/chain/))
+  ([Code](behaviour/chain/))
 * [Command](behaviour/command/Command.md)
   ([Test](../../../../../test/java/org/example/gof/behaviour/command/))
   ([Code](behaviour/command/))
