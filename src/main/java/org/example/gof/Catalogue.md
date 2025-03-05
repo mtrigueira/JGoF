@@ -56,7 +56,7 @@ any), and then a link to test, and code example.
 * [Interpreter](behaviour/interpreter/Interpreter.md)
   ([Test](../../../../../test/java/org/example/gof/behaviour/interpreter/))
   ([Code](behaviour/interpreter/))
-* [Iterator](behaviour/iterator/Iterator.md)
+* [Iterator](behaviour/iterator/Iterator.md), Cursor
   ([Test](../../../../../test/java/org/example/gof/behaviour/iterator/))
   ([Code](behaviour/iterator/))
 * [Mediator](behaviour/mediator/Mediator.md)
