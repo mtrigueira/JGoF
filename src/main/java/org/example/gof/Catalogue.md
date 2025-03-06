@@ -65,7 +65,7 @@ any), and then a link to test, and code example.
 * [Memento](behaviour/memento/Memento.md), Token
   ([Test](../../../../../test/java/org/example/gof/behaviour/memento/))
   ([Code](behaviour/memento/))
-* [Observer](behaviour/observer/Observer.md)
+* [Observer](behaviour/observer/Observer.md), Dependents, Publish/Subscribe
   ([Test](../../../../../test/java/org/example/gof/behaviour/observer/))
   ([Code](behaviour/observer/))
 * [State](behaviour/state/State.md)
