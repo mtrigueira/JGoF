@@ -1,26 +1,23 @@
-```mermaid
----
-title: Strategy
----
-classDiagram
-    class Context {
-        contextInterface()
-        executeStrategy(Strategy)
-    }
-    class Strategy {
-        <<interface>>
-        algorithmInterface(Context)*
-    }
-    class StrategyA {
-        algorithmInterface(Context)
-    }
-    class StrategyB {
-        algorithmInterface(Context)
-    }
+# Strategy
 
-    Strategy <--o Context
-    Strategy <|.. StrategyA
-    Strategy <|.. StrategyB
+Also known as Policy
+
+```mermaid
+classDiagram
+namespace strategy {
+class Context { 
++executeStrategy(strategy)
++contextInterface()
+}
+class Strategy { 
+algorithmInterface(context)
+}
+}
+Context <.. Strategy
+Strategy <.. Context
+
 ```
+
+See also [Flyweight](../../structure/flyweight/Flyweight.md)
 
 [Pattern Catalogue](../../Catalogue.md)

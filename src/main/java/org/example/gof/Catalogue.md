@@ -71,7 +71,7 @@ any), and then a link to test, and code example.
 * [State](behaviour/state/State.md)
   ([Test](../../../../../test/java/org/example/gof/behaviour/state/))
   ([Code](behaviour/state/))
-* [Strategy](behaviour/strategy/Strategy.md)
+* [Strategy](behaviour/strategy/Strategy.md), Policy
   ([Test](../../../../../test/java/org/example/gof/behaviour/strategy/))
   ([Code](behaviour/strategy/))
 * [Template Method](behaviour/template/Template.md)
