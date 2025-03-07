@@ -1,20 +1,27 @@
+# Template
+
 ```mermaid
----
-title: Template
----
 classDiagram
-    class AbstractClass {
-        <<abstract>>
-        templateMethod()
-        primitiveOperation1()*
-        primitiveOperation2()*
+    namespace template {
+        class AbstractClass {
+            <<abstract>>
+            templateMethod()
+            primitiveOperation1()*
+            primitiveOperation2()*
+        }
+        class ConcreteClass {
+            primitiveOperation1()
+            primitiveOperation2()
+        }
     }
-    class Concrete {
-        primitiveOperation1()
-        primitiveOperation2()
-    }
-    
-    AbstractClass <|-- Concrete
+    AbstractClass <|-- ConcreteClass
+
 ```
+
+The `templateMethod()` calls `primitiveOperation1()` and `primitiveOperation2()`
+that is implemented in the `ConcreteClass`.
+
+See also [Factory Method](../../creation/factoryMethod/FactoryMethod.md),
+[Strategy](../strategy/Strategy.md)
 
 [Pattern Catalogue](../../Catalogue.md)
