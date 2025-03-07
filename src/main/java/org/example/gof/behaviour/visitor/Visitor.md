@@ -1,40 +1,45 @@
+# Visitor
+
 ```mermaid
----
-title: Visitor
----
 classDiagram
-    class Visitor {
-        <<interface>>
-        visitA(A)*
-        visitB(B)*
+    namespace visitor {
+        class A {
+            +accept(visitor)
+            +operationA()
+        }
+        class B {
+            +accept(visitor)
+            +operationB()
+        }
+        class Element {
+            <<interface>>
+            accept(visitor)*
+        }
+        class Visitor {
+            <<interface>>
+            visitA(a)*
+            visitB(b)*
+        }
+        class VisitorA {
+            +visitA(a)
+            +visitB(b)
+        }
+        class VisitorB {
+            +visitA(a)
+            +visitB(b)
+        }
     }
-    class Element {
-        <<interface>>
-        accept(Visitor)*
-    }
-    class VisitorA {
-        visitA(A)
-        visitB(B)
-    }
-    class VisitorB {
-        visitA(A)
-        visitB(B)
-    }
-    class A {
-        accept(Visitor)
-        operationA()
-    }
-    class B {
-        accept(Visitor)
-        operationB()
-    }
-    
-    Visitor <|-- VisitorA
-    Visitor <|-- VisitorB
-    Element <|-- A
-    Element <|-- B
-    Element <-- Visitor
-    VisitorA --> A
+    A <.. Visitor
+    B <.. Visitor
+    Element <|.. A
+    Element <|.. B
+    Visitor <.. Element
+    Visitor <|.. VisitorA
+    Visitor <|.. VisitorB
+
 ```
+
+See also [Composite](../../structure/composite/Composite.md),
+[Interpreter](../interpreter/Interpreter.md)
 
 [Pattern Catalogue](../../Catalogue.md)
