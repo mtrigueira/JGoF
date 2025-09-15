@@ -1,4 +1,4 @@
-# Pattern Catalog
+# Pattern Catalogue
 
 Pattern names are linked to a description, followed by unlinked synonyms (if
 any), and then a link to test, and code example.
